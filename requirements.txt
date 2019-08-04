@@ -1,5 +1,4 @@
 slate3k
-
 geograpy3
 flask
 beautifulsoup4==4.8.0
@@ -27,3 +26,4 @@ soupsieve==1.9.2
 tinysegmenter==0.3
 tldextract==2.2.1
 urllib3==1.25.3
+python-docx==0.8.10
