@@ -72,7 +72,7 @@ def hello_world_post():
                 # return {'email': email_match, 'phone': phone_match,
                 #         'location': cities, 'status': 200}
             except Exception as e:
-                return {'response': str(e), 'Type': type(f), 'Name': f.filename, 'status': 400}, 400
+                return {'response': str(e), 'Type': str(type(f)), 'Name': f.filename, 'status': 400}, 400
                 # pass
         df.to_csv('static/Results.csv')
         return send_file('static/Results.csv',
