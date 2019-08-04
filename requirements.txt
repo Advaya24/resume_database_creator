@@ -11,6 +11,7 @@ extract-msg==0.23.1
 feedfinder2==0.0.4
 feedparser==5.2.1
 geograpy3==0.1.2
+gunicorn==19.9.0
 idna==2.8
 IMAPClient==2.1.0
 importlib-metadata==0.19
