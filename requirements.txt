@@ -55,3 +55,4 @@ XlsxWriter==1.1.8
 zipp==0.5.2
 Flask==1.1.1
 python-docx==0.8.10
+pandas==0.25.0
