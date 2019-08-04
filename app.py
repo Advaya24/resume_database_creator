@@ -22,15 +22,19 @@ def hello_world():
 @app.route('/', methods=['POST'])
 def hello_world_post():
     try:
+        status = ''
         df = pd.read_csv('static/Results.csv')[
             ['File_Name', 'Email', 'Phone', 'Location']]
         for f in request.files.getlist('file_upload'):
             try:
                 text = ''
                 if f.content_type == 'application/pdf':
+                    status = 'Detected as PDF'
                     pages = slate.PDF(f)
+                    status = 'PDF opened'
                     for page in pages:
                         text += page
+                    status = 'Text found'
                 else:
                     doc = None
                     try:
@@ -72,7 +76,7 @@ def hello_world_post():
                 # return {'email': email_match, 'phone': phone_match,
                 #         'location': cities, 'status': 200}
             except:
-                return {'response': 'File(s) not uploaded correctly', 'Name': f.filename, 'status': 400}, 400
+                return {'response': status, 'Name': f.filename, 'status': 400}, 400
                 # pass
         df.to_csv('static/Results.csv')
         return send_file('static/Results.csv',
