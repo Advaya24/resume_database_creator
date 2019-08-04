@@ -54,3 +54,4 @@ xlrd==1.2.0
 XlsxWriter==1.1.8
 zipp==0.5.2
 Flask==1.1.1
+python-docx==0.8.10
