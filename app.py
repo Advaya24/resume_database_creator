@@ -1,10 +1,10 @@
-from flask import Flask, request, render_template, send_file, redirect, url_for
-import geograpy
-import slate3k as slate
 import re
-import docx
 import zipfile
+import docx
+import geograpy
 import pandas as pd
+import slate3k as slate
+from flask import Flask, redirect, render_template, request, send_file
 
 app = Flask(__name__)
 
@@ -72,8 +72,8 @@ def hello_world_post():
                 # return {'email': email_match, 'phone': phone_match,
                 #         'location': cities, 'status': 200}
             except:
-                # return {'response': 'File(s) not uploaded correctly', 'status': 400}
-                pass
+                return {'response': 'File(s) not uploaded correctly', 'Name': f.filename, 'status': 400}, 400
+                # pass
         df.to_csv('static/Results.csv')
         return send_file('static/Results.csv',
                          mimetype='text/csv',
