@@ -24,7 +24,7 @@ def hello_world():
 def hello_world_post():
     try:
         df = pd.read_csv('static/Results.csv')[
-            ['File_Name', 'Email', 'Phone', 'Location']]
+            ['File_Name', 'Name', 'Email', 'Phone', 'Location']]
         for f in request.files.getlist('file_upload'):
             try:
                 text = ''
@@ -45,11 +45,17 @@ def hello_world_post():
                 email_pattern = re.compile(
                     '([a-zA-Z0-9._]+@(?:[a-zA-Z]+.)+[a-zA-Z]+)')
                 phone_pattern = re.compile('(?:\\+?91-?\\s?)?((?:\\d-?){10})')
+                name_pattern = re.compile('(((?: )?(?:[a-zA-Z])+)+)(?: )*_')
 
                 email = ''
                 phone = ''
+                name = ''
                 email_match = email_pattern.findall(text)
                 phone_match = phone_pattern.findall(text)
+                name_match = name_pattern.match(f.filename)
+
+                if name_match is not None:
+                    name = name_match.group()
                 # if email_match is not None:
                 #     email = email_match.group()
                 # if phone_match is not None:
@@ -62,11 +68,13 @@ def hello_world_post():
                     cities = []
                 if not (df['File_Name'] == f.filename).any():
                     df = df.append(
-                        {'File_Name': f.filename, 'Email': email_match,
-                         'Phone': phone_match, 'Location': cities},
+                        {'File_Name': f.filename, 'Name': name,
+                         'Email': email_match, 'Phone': phone_match,
+                         'Location': cities},
                         ignore_index=True)
                 else:
                     df.loc[df['File_Name'] == f.filename, :] = [f.filename,
+                                                                name,
                                                                 email_match,
                                                                 phone_match,
                                                                 cities]
@@ -74,7 +82,8 @@ def hello_world_post():
                 #         'location': cities, 'status': 200}
             except Exception as e:
                 traceback_str = ''.join(traceback.format_tb(e.__traceback__))
-                return {'traceback': traceback_str, 'Name': f.filename, 'status': 400}, 400
+                return {'traceback': traceback_str, 'Name': f.filename,
+                        'status': 400}, 400
                 # pass
         df.to_csv('static/Results.csv')
         return send_file('static/Results.csv',
