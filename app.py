@@ -51,18 +51,16 @@ def hello_world_post():
                 email = ''
                 phone = ''
                 name = ''
-                email_match = email_pattern.findall(text)
-                phone_match = phone_pattern.findall(text)
+                email_match = email_pattern.match(text)
+                phone_match = phone_pattern.match(text)
                 name_match = name_pattern.match(f.filename)
 
-                try:
+                if name_match is not None:
                     name = name_match.group()
-                except:
-                    pass
-                # if email_match is not None:
-                #     email = email_match.group()
-                # if phone_match is not None:
-                #     phone = phone_match.group()
+                if email_match is not None:
+                    email = email_match.group()
+                if phone_match is not None:
+                    phone = phone_match.group()
 
                 try:
                     places_match = geograpy.get_place_context(text=text)
@@ -71,10 +69,8 @@ def hello_world_post():
                     cities = []
                 if not (df['File_Name'] == f.filename).any():
                     df = df.append(
-                        {'File_Name': f.filename, 'Name': name,
-                         'Email': email_match, 'Phone': phone_match,
-                         'Location': cities},
-                        ignore_index=True)
+                        {'File_Name': f.filename, 'Name': name, 'Email': email,
+                         'Phone': phone, 'Location': cities}, ignore_index=True)
                 else:
                     df.loc[df['File_Name'] == f.filename, :] = [f.filename,
                                                                 name,
@@ -99,7 +95,8 @@ def hello_world_post():
 
 @app.route('/clear/', methods=['POST'])
 def clear():
-    df = pd.DataFrame(columns=['File_Name', 'Name', 'Email', 'Phone', 'Location'])
+    df = pd.DataFrame(
+        columns=['File_Name', 'Name', 'Email', 'Phone', 'Location'])
     df.to_csv('static/Results.csv')
     return redirect('/', code=302)
 
