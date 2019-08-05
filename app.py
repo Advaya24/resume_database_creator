@@ -1,6 +1,6 @@
 import re
 import zipfile
-import docx
+import docx2txt as docx
 import geograpy
 import pandas as pd
 import slate3k as slate
@@ -36,12 +36,13 @@ def hello_world_post():
                 else:
                     doc = None
                     try:
-                        doc = docx.Document(f)
+                        text = docx.process(f)
+                        # doc = docx.Document(f)
                     except zipfile.BadZipFile:
                         pass
 
-                    for paragraph in doc.paragraphs:
-                        text += paragraph.text
+                    # for paragraph in doc.paragraphs:
+                    #     text += paragraph.text
 
                 email_pattern = re.compile(
                     '([a-zA-Z0-9._]+@(?:[a-zA-Z]+.)+[a-zA-Z]+)')
@@ -51,16 +52,16 @@ def hello_world_post():
                 email = ''
                 phone = ''
                 name = ''
-                email_match = email_pattern.match(text)
-                phone_match = phone_pattern.match(text)
+                email_match = email_pattern.findall(text)
+                phone_match = phone_pattern.findall(text)
                 name_match = name_pattern.match(f.filename)
 
                 if name_match is not None:
                     name = name_match.group()
-                if email_match is not None:
-                    email = email_match.group()
-                if phone_match is not None:
-                    phone = phone_match.group()
+                if len(email_match) > 0:
+                    email = email_match[0]
+                if len(phone_match) > 0:
+                    phone = phone_match[0]
 
                 try:
                     places_match = geograpy.get_place_context(text=text)
@@ -74,8 +75,8 @@ def hello_world_post():
                 else:
                     df.loc[df['File_Name'] == f.filename, :] = [f.filename,
                                                                 name,
-                                                                email_match,
-                                                                phone_match,
+                                                                email,
+                                                                phone,
                                                                 cities]
                 # return {'email': email_match, 'phone': phone_match,
                 #         'location': cities, 'status': 200}
