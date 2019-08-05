@@ -1,7 +1,7 @@
 import re
 import zipfile
 import docx2txt as docx
-import geograpy
+from geotext import GeoText
 import pandas as pd
 import slate3k as slate
 from flask import Flask, redirect, render_template, request, send_file
@@ -64,10 +64,11 @@ def hello_world_post():
                     phone = phone_match[0]
 
                 try:
-                    places_match = geograpy.get_place_context(text=text)
+                    # places_match = geograpy.get_place_context(text=text)
+                    places_match = GeoText(text)
                     cities = places_match.cities
                 except:
-                    cities = []
+                    cities = ''
                 if not (df['File_Name'] == f.filename).any():
                     df = df.append(
                         {'File_Name': f.filename, 'Name': name, 'Email': email,
