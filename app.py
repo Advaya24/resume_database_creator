@@ -1,13 +1,14 @@
 import re
-import traceback
 import zipfile
 import docx
 import geograpy
 import pandas as pd
 import slate3k as slate
 from flask import Flask, redirect, render_template, request, send_file
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 
 @app.route('/', methods=['GET'])
