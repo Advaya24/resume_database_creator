@@ -54,8 +54,10 @@ def hello_world_post():
                 phone_match = phone_pattern.findall(text)
                 name_match = name_pattern.match(f.filename)
 
-                if name_match is not None:
-                    name = name_match.group()
+                try:
+                    name = name_match.groups()[0]
+                except:
+                    pass
                 # if email_match is not None:
                 #     email = email_match.group()
                 # if phone_match is not None:
