@@ -99,7 +99,7 @@ def hello_world_post():
 
 @app.route('/clear/', methods=['POST'])
 def clear():
-    df = pd.DataFrame(columns=['File_Name', 'Email', 'Phone', 'Location'])
+    df = pd.DataFrame(columns=['File_Name', 'Name', 'Email', 'Phone', 'Location'])
     df.to_csv('static/Results.csv')
     return redirect('/', code=302)
 
