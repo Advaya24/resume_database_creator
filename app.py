@@ -83,10 +83,10 @@ def hello_world_post():
                 # return {'email': email_match, 'phone': phone_match,
                 #         'location': cities, 'status': 200}
             except Exception as e:
-                traceback_str = ''.join(traceback.format_tb(e.__traceback__))
-                return {'traceback': traceback_str, 'Name': f.filename,
-                        'status': 400}, 400
-                # pass
+                # traceback_str = ''.join(traceback.format_tb(e.__traceback__))
+                # return {'traceback': traceback_str, 'Name': f.filename,
+                #         'status': 400}, 400
+                pass
         df.to_csv('static/Results.csv')
         return send_file('static/Results.csv',
                          mimetype='text/csv',
