@@ -1,11 +1,11 @@
 import re
 import zipfile
 import docx2txt as docx
-from geotext import GeoText
 import pandas as pd
 import slate3k as slate
 from flask import Flask, redirect, render_template, request, send_file
 from flask_cors import CORS
+import string
 
 app = Flask(__name__)
 CORS(app)
@@ -34,7 +34,6 @@ def hello_world_post():
                     for page in pages:
                         text += page
                 else:
-                    doc = None
                     try:
                         text = docx.process(f)
                         # doc = docx.Document(f)
@@ -63,12 +62,23 @@ def hello_world_post():
                 if len(phone_match) > 0:
                     phone = phone_match[0]
 
-                try:
-                    # places_match = geograpy.get_place_context(text=text)
-                    places_match = GeoText(text)
-                    cities = places_match.cities
-                except:
+                # try:
+                #     # places_match = geograpy.get_place_context(text=text)
+                #     # places_match = GeoText(text)
+                #     # cities = places_match.cities
+                # except:
+                #     cities = ''
+                all_cities = pd.read_csv('static/cities.csv')[
+                    'name_of_city'].to_list()
+                cities = []
+                for word in text.split():
+                    word = word.translate(
+                        str.maketrans('', '', string.punctuation))
+                    if word.capitalize() in all_cities:
+                        cities.append(word.capitalize())
+                if len(cities) == 0:
                     cities = ''
+
                 if not (df['File_Name'] == f.filename).any():
                     df = df.append(
                         {'File_Name': f.filename, 'Name': name, 'Email': email,
