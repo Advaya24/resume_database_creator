@@ -45,7 +45,7 @@ def hello_world_post():
                 email_pattern = re.compile(
                     '([a-zA-Z0-9._]+@(?:[a-zA-Z]+.)+[a-zA-Z]+)')
                 phone_pattern = re.compile('(?:\\+?91-?\\s?)?((?:\\d-?){10})')
-                name_pattern = re.compile('(((?: )?(?:[a-zA-Z])+)+)(?: )*_')
+                name_pattern = re.compile('(((?: )?(?:[a-zA-Z])+)+)')
 
                 email = ''
                 phone = ''
@@ -55,7 +55,7 @@ def hello_world_post():
                 name_match = name_pattern.match(f.filename)
 
                 try:
-                    name = name_match.groups()[0]
+                    name = name_match.group()
                 except:
                     pass
                 # if email_match is not None:
