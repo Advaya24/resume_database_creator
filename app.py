@@ -17,7 +17,7 @@ def hello_world():
     df = pd.read_csv('static/Results.csv')
     if df.size > 1:
         form_name += 'Clear'
-    return render_template('flask-hello-world/' + form_name + '.html',
+    return render_template('resume_database_creator/' + form_name + '.html',
                            size=len(df)), 200
 
 

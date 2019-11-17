@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="201827f1-f7bd-4652-b0f7-b961dd4c3b48" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/Results.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resume_database_creator/templates/resume_database_creator/Form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resume_database_creator/templates/resume_database_creator/FormClear.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resume_database_creator/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../resume_database_creator/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resume_database_creator/.idea/flask-hello-world.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../resume_database_creator/.idea/resume_database_creator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resume_database_creator/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../resume_database_creator/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resume_database_creator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../resume_database_creator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resume_database_creator/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../resume_database_creator/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resume_database_creator/static/George John _145570072.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resume_database_creator/static/Priyanka Mehra_145361311.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resume_database_creator/static/Rashid Akthar_148457670.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resume_database_creator/static/Results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../resume_database_creator/static/Results.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resume_database_creator/static/Sowkya Thangella_148549880 (1) 2.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resume_database_creator/static/kumaresan Selvam_140458001.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resume_database_creator/templates/flask-hello-world/Form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resume_database_creator/templates/flask-hello-world/FormClear.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resume_database_creator/templates/flask-hello-world/result/ResultStyleSheet.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +28,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
+        <entry file="file://$PROJECT_DIR$/../resume_database_creator/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
               <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
@@ -22,38 +36,45 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../resume_database_creator/static/cities.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../resume_database_creator/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1712">
+              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/Results.csv">
+        <entry file="file://$PROJECT_DIR$/../resume_database_creator/static/Results.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../resume_database_creator/templates/resume_database_creator/Form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="36" selection-start-column="36" selection-end-column="36" />
+            <state relative-caret-position="57">
+              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/cities.csv">
+        <entry file="file://$PROJECT_DIR$/../resume_database_creator/templates/resume_database_creator/FormClear.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2726">
-              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/flask-hello-world/Form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+            <state relative-caret-position="133">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -75,7 +96,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../resume_database_creator" />
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="IdeDocumentHistory">
@@ -100,6 +121,9 @@
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/static/Results.csv" />
+        <option value="$PROJECT_DIR$/../resume_database_creator/app.py" />
+        <option value="$PROJECT_DIR$/../resume_database_creator/static/Resumes-16.csv" />
+        <option value="$PROJECT_DIR$/../resume_database_creator/static/Results.csv" />
       </list>
     </option>
   </component>
@@ -113,34 +137,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="flask-hello-world" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flask-hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="resume_database_creator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resume_database_creator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="flask-hello-world" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flask-hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="resume_database_creator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resume_database_creator" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="flask-hello-world" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flask-hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="resume_database_creator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resume_database_creator" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="flask-hello-world" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flask-hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="resume_database_creator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resume_database_creator" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="flask-hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="resume_database_creator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,16 +178,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static" />
-      <recent name="$PROJECT_DIR$/templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../resume_database_creator/static" />
       <recent name="$PROJECT_DIR$/templates/flask-hello-world" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app" />
-      <recent name="$PROJECT_DIR$/docker" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -178,15 +202,83 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Flask server.flask-hello-world">
+  <component name="RunManager" selected="Flask server.resume_database_creator">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="resume_database_creator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="resume_database_creator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="resume_database_creator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="resume_database_creator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
-      <module name="flask-hello-world" />
-      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <module name="resume_database_creator" />
+      <option name="target" value="$PROJECT_DIR$/../resume_database_creator/app.py" />
       <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../resume_database_creator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -194,19 +286,44 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="flask-hello-world" type="Python.FlaskServer">
-      <module name="flask-hello-world" />
-      <option name="target" value="$PROJECT_DIR$/app.py" />
-      <option name="targetType" value="PATH" />
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="resume_database_creator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="resume_database_creator" type="Python.FlaskServer">
+      <module name="resume_database_creator" />
+      <option name="target" value="$PROJECT_DIR$/../resume_database_creator/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../resume_database_creator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="resume_database_creator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
@@ -233,9 +350,43 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="resume_database_creator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="resume_database_creator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Docker.docker/Dockerfile" />
-      <item itemvalue="Flask server.flask-hello-world" />
+      <item itemvalue="Flask server.resume_database_creator" />
       <item itemvalue="Flask server.Flask (app.py)" />
     </list>
     <recent_temporary>
@@ -258,7 +409,11 @@
       <workItem from="1563263758406" duration="5146000" />
       <workItem from="1564642457875" duration="8790000" />
       <workItem from="1564735083571" duration="2190000" />
-      <workItem from="1564926771508" duration="27901000" />
+      <workItem from="1564926771508" duration="28227000" />
+      <workItem from="1568996968773" duration="415000" />
+      <workItem from="1569185835226" duration="693000" />
+      <workItem from="1569788076825" duration="33000" />
+      <workItem from="1574018780478" duration="912000" />
     </task>
     <task id="LOCAL-00001" summary="Added procfile">
       <created>1564940832482</created>
@@ -491,22 +646,29 @@
       <option name="project" value="LOCAL" />
       <updated>1565029599360</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Emptied results">
+      <created>1565183668353</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1565183668353</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44027000" />
+    <option name="totallyTimeSpent" value="46406000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23748474" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24908425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.498779" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498779" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -554,9 +716,25 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added type to exception message" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="Added type to exception message fixed" />
     <MESSAGE value="Removed type from exception message" />
     <MESSAGE value="Reformatted traceback" />
@@ -581,65 +759,47 @@
     <MESSAGE value="Fixed missing emails" />
     <MESSAGE value="Improved location results" />
     <MESSAGE value="Improved location results and limited to Indian cities" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved location results and limited to Indian cities" />
+    <MESSAGE value="Emptied results" />
+    <option name="LAST_COMMIT_MESSAGE" value="Emptied results" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/flask_hello_world$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1565025280000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/resume_database_creator$resume_database_creator.coverage" NAME="resume_database_creator Coverage Results" MODIFIED="1574019393157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../resume_database_creator" />
     <SUITE FILE_PATH="coverage/flask_hello_world$untitled.coverage" NAME="flask-hello-world Coverage Results" MODIFIED="1563789003965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flask_hello_world$flask_hello_world.coverage" NAME="flask-hello-world Coverage Results" MODIFIED="1565029504413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docker/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/../resume_database_creator/docker/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
-    <entry file="file://$PROJECT_DIR$/templates/flask-hello-world/result/ResultStyleSheet.css">
+    <entry file="file://$PROJECT_DIR$/../resume_database_creator/templates/resume_database_creator/result/ResultStyleSheet.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/PyPDF2/filters.py" />
-    <entry file="file://$PROJECT_DIR$/docker/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/../resume_database_creator/docker/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/../resume_database_creator/docker/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/pandas/core/indexes/base.py">
+    <entry file="file://$PROJECT_DIR$/../resume_database_creator/venv/lib/python3.7/site-packages/pandas/core/indexes/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="297" selection-start-line="297" selection-end-line="297" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/flask-hello-world/Result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/flask-hello-world/FormClear.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/templates/flask-hello-world/Result.html" />
+    <entry file="file://$PROJECT_DIR$/../resume_database_creator/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="4" selection-start-column="4" selection-end-column="4" />
@@ -649,96 +809,92 @@
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/zipfile.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
+    <entry file="file://$PROJECT_DIR$/../resume_database_creator/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/pdfminer/__init__.py">
+    <entry file="file://$PROJECT_DIR$/../resume_database_creator/venv/lib/python3.7/site-packages/pdfminer/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/pdfminer/pdfparser.py">
+    <entry file="file://$PROJECT_DIR$/../resume_database_creator/venv/lib/python3.7/site-packages/pdfminer/pdfparser.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/slate3k/classes.py">
+    <entry file="file://$PROJECT_DIR$/../resume_database_creator/venv/lib/python3.7/site-packages/slate3k/classes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/db/drivers.py">
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/db/drivers.py" />
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/db/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/models.py" />
+    <entry file="file://$PROJECT_DIR$/auth.py" />
+    <entry file="file://$PROJECT_DIR$/main.py" />
+    <entry file="file://$PROJECT_DIR$/../resume_database_creator/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/API+PoC_1/rest_api_trial/trial_app/models.py" />
+    <entry file="file://$PROJECT_DIR$/../resume_database_creator/static/Results.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1237" />
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/db/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5935" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models.py">
+    <entry file="file://$PROJECT_DIR$/../resume_database_creator/templates/Base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/flask-hello-world/Form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/cities.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2726">
-          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/API+PoC_1/rest_api_trial/trial_app/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/../resume_database_creator/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/Results.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
+    <entry file="file://$PROJECT_DIR$/../resume_database_creator/static/cities.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-2726">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resume_database_creator/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1712">
+          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resume_database_creator/templates/resume_database_creator/Form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resume_database_creator/templates/resume_database_creator/FormClear.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resume_database_creator/static/Results.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
   </component>
