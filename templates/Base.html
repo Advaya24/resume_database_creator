@@ -44,6 +44,7 @@
 <script type="text/javascript">
     function submitAndRedirect() {
         document.parseAndDownload.submit();
+        console.log(document.parseAndDownload.file_upload.getAttribute('files'));
         setTimeout(function () {
             document.location = "/";
         }, 500);
