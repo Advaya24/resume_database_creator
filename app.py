@@ -1,4 +1,5 @@
 import re
+import traceback
 import zipfile
 import docx2txt as docx
 import pandas as pd
@@ -95,7 +96,8 @@ def hello_world_post():
                 # traceback_str = ''.join(traceback.format_tb(e.__traceback__))
                 # return {'traceback': traceback_str, 'Name': f.filename,
                 #         'status': 400}, 400
-                pass
+                print(f.filename)
+                print(''.join(traceback.format_tb(e.__traceback__)))
         df.to_csv('static/Results.csv')
         return send_file('static/Results.csv',
                          mimetype='text/csv',

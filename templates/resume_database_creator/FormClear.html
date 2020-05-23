@@ -1,31 +1,35 @@
-{% extends 'Base.html' %}
+{% extends 'resume_database_creator/Form.html' %}
 {% block head %}
-    <script type="text/javascript">
-        function submitAndRedirect() {
-            document.parseAndDownload.submit();
-            setTimeout(function () {
-                document.location = "/";
-            }, 500)
-        }
-    </script>
-    <title>
-        Form
-    </title>
+    <title>Resume Database Creator</title>
 {% endblock %}
-{% block body %}
-    <form action="." name="parseAndDownload" method="post"
-          enctype="multipart/form-data">
-        <input type="file" name="file_upload" id="file_upload" multiple> <br>
-        <a href="javascript:submitAndRedirect()">
-            <button class="btn btn-submit">Parse and Download
-            </button>
-        </a>
-    </form>
-    There are already {{ size }} entries in the database.
-    <form action="{{ url_for('clear') }}" method="post">
-        <button type="submit" class="btn btn-submit">Clear History</button>
-        <button type="submit" class="btn btn-submit"
-                formaction="{{ url_for('download_history') }}">Download History
-        </button>
-    </form>
+{% block history %}
+
+    <div class="row row-content mt-5">
+        <div class="col-12 col-md-9">
+            <h3>Saved History</h3>
+        </div>
+        <div class="col-12 col-md-9">
+            <p>There {% if size > 1 %} are {% else %} is {% endif %}
+                already {{ size }} {% if size > 1 %} entries {% else %}
+                entry {% endif %} in the database. You can
+                clear this historical data or download it.</p>
+        </div>
+        <div class="col-12 col-md-9">
+            <form action="{{ url_for('clear') }}" method="post">
+                <div class="form-group row">
+                    <div class="col-12 col-md-5">
+                        <button type="submit" class="btn btn-submit btn-danger">
+                            Clear
+                            History
+                        </button>
+                        <button type="submit" class="btn btn-submit btn-primary"
+                                formaction="{{ url_for('download_history') }}">
+                            Download
+                            History
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 {% endblock %}
