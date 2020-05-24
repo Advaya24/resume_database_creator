@@ -42,13 +42,24 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 <script type="text/javascript">
-    function submitAndRedirect() {
-        document.parseAndDownload.submit();
+    var toLoad = false;
 
-    {#   setTimeout(function () {
-    {#            document.location = "/";
-    {#        }, 2000); #}
+    function submit() {
+        document.parseAndDownload.submit();
+        setTimeout(function () {
+            document.location = "/";
+        }, 500);
+        toLoad = true;
     }
+
+    window.addEventListener('load', function () {
+        if (toLoad) {
+            setTimeout(function () {
+                document.location = "/";
+            }, 2000);
+            toLoad = false;
+        }
+    });
 
     $('document').ready(function () {
         $("#file_upload").change(function () {

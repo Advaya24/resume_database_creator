@@ -11,8 +11,8 @@
         <div class="col-12 col-md-9">
             <p>There {% if size > 1 %} are {% else %} is {% endif %}
                 already {{ size }} {% if size > 1 %} entries {% else %}
-                entry {% endif %} in the database. You can
-                clear this historical data or download it.</p>
+                    entry {% endif %} in the database. You can
+                clear this historical data or download it (opens new tab).</p>
         </div>
         <div class="col-12 col-md-9">
             <form action="{{ url_for('clear') }}" method="post">
@@ -23,7 +23,8 @@
                             History
                         </button>
                         <button type="submit" class="btn btn-submit btn-primary"
-                                formaction="{{ url_for('download_history') }}">
+                                formaction="{{ url_for('download_history') }}"
+                                formtarget="_blank">
                             Download
                             History
                         </button>

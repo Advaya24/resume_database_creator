@@ -12,11 +12,12 @@
         <div class="col-12 col-md-9">
             <p>Upload multiple resumes in docx and doc formats and click
                 Parse and Download to generate csv containing Name, Email,
-                Phone and Locations by File Name.</p>
+                Phone and Locations by File Name. Opens new tab to initiate
+                download.</p>
         </div>
         <div class="col-12 col-md-9">
             <form action="." name="parseAndDownload" method="post"
-                  enctype="multipart/form-data">
+                  enctype="multipart/form-data" target="_blank">
                 <div class="form-group row">
                     <div class="col-12 col-md-9">
                         <div class="custom-file">
@@ -30,7 +31,7 @@
                 </div>
                 <div class="form-group row">
                     <div class="col-12 col-md-5">
-                        <a href="javascript:submitAndRedirect()"
+                        <a href="javascript:submit()"
                            class="btn btn-submit btn-info">
                             Parse and Download
                         </a>
