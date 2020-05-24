@@ -1,0 +1,28 @@
+$background-dark: #002a6e;
+$background-light: rgba(88, 139, 255, 0.67);
+$color-dark: #004dbdff;
+
+@mixin zero-margin($pad-up-dn, $pad-left-right) {
+	margin:0px auto;
+	padding: $pad-up-dn $pad-left-right;
+}
+
+.jumbotron {
+  //background: $background-light;
+  //color: $color-dark;
+  @include zero-margin(70px,30px);
+}
+
+.navbar-dark {
+  //background-color: $background-dark;
+}
+
+.row-content {
+  border-bottom: 1px ridge;
+  @include zero-margin(50px,0px);
+}
+
+body {
+  //color: $color-dark;
+  padding: 50px 0 0 0;
+}

@@ -1,0 +1,16 @@
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+}
+
+.row-content {
+  border-bottom: 1px ridge;
+  margin: 0px auto;
+  padding: 50px 0px;
+}
+
+body {
+  padding: 50px 0 0 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
