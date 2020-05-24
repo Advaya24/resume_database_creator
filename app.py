@@ -4,16 +4,20 @@ import zipfile
 import docx2txt as docx
 import pandas as pd
 import slate3k as slate
-from flask import Flask, redirect, render_template, request, send_file
+from flask import Flask, redirect, render_template, request, send_file, json
 from flask_cors import CORS
 import string
 
 app = Flask(__name__)
 CORS(app)
 
+to_reload = False
+
 
 @app.route('/', methods=['GET'])
 def hello_world():
+    global to_reload
+    to_reload = False
     form_name = 'Form'
     df = pd.read_csv('static/Results.csv')
     if df.size > 1:
@@ -24,6 +28,7 @@ def hello_world():
 
 @app.route('/', methods=['POST'])
 def hello_world_post():
+    global to_reload
     try:
         df = pd.read_csv('static/Results.csv')[
             ['File_Name', 'Name', 'Email', 'Phone', 'Location']]
@@ -99,6 +104,7 @@ def hello_world_post():
                 print(f.filename)
                 print(''.join(traceback.format_tb(e.__traceback__)))
         df.to_csv('static/Results.csv')
+        to_reload = True
         return send_file('static/Results.csv',
                          mimetype='text/csv',
                          attachment_filename='Resumes.csv',
@@ -119,6 +125,14 @@ def clear():
 def download_history():
     return send_file('static/Results.csv', mimetype='text/csv',
                      attachment_filename='Resumes.csv', as_attachment=True), 200
+
+
+@app.route('/to_reload/')
+def to_reload_func():
+    global to_reload
+    return json.jsonify({
+        'toLoad': to_reload
+    })
 
 
 if __name__ == '__main__':

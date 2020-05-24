@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="201827f1-f7bd-4652-b0f7-b961dd4c3b48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/Results.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/Base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/resume_database_creator/Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/resume_database_creator/Form.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+            <state relative-caret-position="1330">
+              <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -33,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/resume_database_creator/Form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="287">
+              <caret line="19" column="76" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -42,17 +45,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/resume_database_creator/FormClear.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            <state relative-caret-position="438">
+              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-239">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="281">
+              <caret line="131" column="20" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -97,18 +100,18 @@
         <option value="$PROJECT_DIR$/static/Results.csv" />
         <option value="$PROJECT_DIR$/static/Resumes-16.csv" />
         <option value="$PROJECT_DIR$/static/Results.csv" />
-        <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/templates/resume_database_creator/Form.html" />
         <option value="$PROJECT_DIR$/templates/resume_database_creator/FormClear.html" />
+        <option value="$PROJECT_DIR$/templates/resume_database_creator/Form.html" />
         <option value="$PROJECT_DIR$/templates/Base.html" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
+    <option name="width" value="834" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -273,7 +276,7 @@
       <workItem from="1579413064552" duration="1858000" />
       <workItem from="1585931077577" duration="2786000" />
       <workItem from="1590226785784" duration="7547000" />
-      <workItem from="1590236995074" duration="788000" />
+      <workItem from="1590236995074" duration="4288000" />
     </task>
     <task id="LOCAL-00001" summary="Added procfile">
       <created>1564940832482</created>
@@ -534,11 +537,25 @@
       <option name="project" value="LOCAL" />
       <updated>1590237492683</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Stop auto-reload">
+      <created>1590238027328</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1590238027328</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Opens download in new tab">
+      <created>1590308143085</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1590308143085</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68144000" />
+    <option name="totallyTimeSpent" value="71644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -616,8 +633,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Updated requirements.txt" />
-    <MESSAGE value="Updated requirements.txt, added docx" />
     <MESSAGE value="Updated requirements.txt, added pandas" />
     <MESSAGE value="Updated requirements.txt, added Flask" />
     <MESSAGE value="Updated requirements.txt, removed pdfminer.six" />
@@ -641,11 +656,13 @@
     <MESSAGE value="Renamed project" />
     <MESSAGE value="Improved front-end" />
     <MESSAGE value="Adding logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding logging" />
+    <MESSAGE value="Stop auto-reload" />
+    <MESSAGE value="Opens download in new tab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Opens download in new tab" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/flask_hello_world$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1565025280000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/resume_database_creator$resume_database_creator.coverage" NAME="resume_database_creator Coverage Results" MODIFIED="1590237881940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/resume_database_creator$resume_database_creator.coverage" NAME="resume_database_creator Coverage Results" MODIFIED="1590310608519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flask_hello_world$untitled.coverage" NAME="flask-hello-world Coverage Results" MODIFIED="1563789003965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flask_hello_world$flask_hello_world.coverage" NAME="flask-hello-world Coverage Results" MODIFIED="1565029504413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -765,29 +782,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/resume_database_creator/FormClear.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-239">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="438">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/resume_database_creator/Form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="287">
+          <caret line="19" column="76" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        <state relative-caret-position="1330">
+          <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="131" column="20" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
         </state>
       </provider>
     </entry>
