@@ -7,6 +7,11 @@ import slate3k as slate
 from flask import Flask, redirect, render_template, request, send_file, json
 from flask_cors import CORS
 import string
+from nltk.tag import StanfordNERTagger
+
+st = StanfordNERTagger(
+    '/Users/AdvayaGupta/PycharmProjects/resume_database_creator/static/stanford-ner-4.0.0/classifiers/english.all.3class.distsim.crf.ser.gz',
+    '/Users/AdvayaGupta/PycharmProjects/resume_database_creator/static/stanford-ner-4.0.0/stanford-ner.jar')
 
 app = Flask(__name__)
 CORS(app)

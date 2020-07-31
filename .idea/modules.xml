@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../resume_database_creator/.idea/resume_database_creator.iml" filepath="$PROJECT_DIR$/../resume_database_creator/.idea/resume_database_creator.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/Coding/Thrifty/.idea/Thrifty.iml" filepath="$USER_HOME$/Desktop/Coding/Thrifty/.idea/Thrifty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/resume_database_creator.iml" filepath="$PROJECT_DIR$/.idea/resume_database_creator.iml" />
     </modules>
   </component>
 </project>
