@@ -1,5 +1,5 @@
 #FROM python:3
-#WORKDIR /usr/src/app
+#WORKDIR /usr/src/app_dir
 #
 #COPY requirements.txt ./
 #
@@ -7,7 +7,7 @@
 #
 #COPY . .
 #
-#CMD [ "python", "./app.py" ]
+#CMD [ "python", "./app_dir.py" ]
 FROM ubuntu:latest
 MAINTAINER Advaya Gupta "advaya24@yahoo.co.in"
 RUN apt-get update -y && \

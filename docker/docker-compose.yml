@@ -4,4 +4,4 @@ services:
   flask-hello-world:
     build: .
     volumes:
-      - .:/app
+      - .:/app_dir
