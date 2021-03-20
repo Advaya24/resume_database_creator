@@ -19,7 +19,7 @@ importlib-metadata==0.19
 itsdangerous==1.1.0
 jellyfish==0.7.2
 jieba3k==0.35.1
-Jinja2==2.10.1
+Jinja2==2.11.3
 lxml==4.4.0
 MarkupSafe==1.1.1
 more-itertools==7.2.0
