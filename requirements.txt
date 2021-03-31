@@ -20,7 +20,7 @@ itsdangerous==1.1.0
 jellyfish==0.7.2
 jieba3k==0.35.1
 Jinja2==2.10.1
-lxml==4.4.0
+lxml==4.6.3
 MarkupSafe==1.1.1
 more-itertools==7.2.0
 newspaper3k==0.2.8
